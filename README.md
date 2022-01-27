@@ -12,6 +12,7 @@ Also familiarize yourself with Dan Giguere's outputted data
 	- https://www.ebi.ac.uk/ena/browser/view/PRJEB42700?show=reads
 - The entire genome sequence can be found in a single file on one of his github repositories
 	- https://github.com/dgiguer/phaeodactylum-tricornutum-genome
+
 Also important to note is that the PEPPER-Margin-DeepVariant instructions provide instructions for using Docker. I don't know how to use Docker yet so it's one thing we should learn how to use first.
 
 # Collaborative notebook
@@ -23,7 +24,7 @@ Created a directory in my home directory to attempt this
 /home/mpampuch/pt_haplos_ont
 ```
 
-Organized it like this as per the PEPPER github instructions
+Organized it like this as per the PEPPER github instructions (misc folder not part of the instructions just added by me)
 
 ```
 (base) mpampuch@agrajag:~/pt_haplos_ont$ ls
