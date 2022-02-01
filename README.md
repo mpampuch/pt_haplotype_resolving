@@ -7,6 +7,7 @@ Please make sure to add thorough comments, cleaned up code, and *timestamp* your
 Please go over the PEPPER-Margin-DeepVariant manuscript and instructions as it's the pipeline we'll be using for this project
 - https://www.nature.com/articles/s41592-021-01299-w
 - https://github.com/kishwarshafin/pepper#quickstarts-small-runs-to-test-system-configuration
+
 Also familiarize yourself with Dan Giguere's outputted data
 - The individual chromosome sequences are available on the European Nucletoide Archive under the Project ID: PRJEB42700
 	- https://www.ebi.ac.uk/ena/browser/view/PRJEB42700?show=reads
