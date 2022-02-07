@@ -18,11 +18,11 @@ Also important to note is that the PEPPER-Margin-DeepVariant instructions provid
 
 # Collaborative notebook
 
-Jan 26th - MP: 
+### Jan 26th - MP: 
 
-Created a directory in my home directory to attempt this
+Created a directory in the ubdata drive to attempt this
 ```
-/home/mpampuch/pt_haplos_ont
+/Volumes/ubdata/mpampuch/pt_haplos_ont
 ```
 
 Organized it like this as per the PEPPER github instructions (misc folder not part of the instructions just added by me)
@@ -39,3 +39,17 @@ git clone https://github.com/dgiguer/phaeodactylum-tricornutum-genome.git pt_gen
 mv pt_genome misc
 ```
 
+### Feb 7th - MP:
+
+Dan re-basecalled the reads over the weekend using Bonito. Shared them here:
+	- https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/Ece0oqtqtzVFnmtvvqBM28sBt7VHHkx9YbL8bkRibt2boA?e=1zqnWJ
+
+I made a new directory inside misc and downloaded them there
+	- I learned that for files on sharepoint, you can download them directly using `wget` if you replace whatever is after the `?` with `download=1`
+	
+```
+mkdir rebasecalled_reads
+cd rebasecalled_reads
+wget https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/Ece0oqtqtzVFnmtvvqBM28sBt7VHHkx9YbL8bkRibt2boA?download=1 --output-document=bonito_basecalls.fastq.gz
+gunzip bonito_basecalls.fastq.gz
+```
