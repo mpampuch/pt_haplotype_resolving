@@ -42,12 +42,10 @@ mv pt_genome misc
 ### Feb 7th - MP:
 
 Dan re-basecalled the reads over the weekend using Bonito. Shared them here:
-	
-	- https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/Ece0oqtqtzVFnmtvvqBM28sBt7VHHkx9YbL8bkRibt2boA?e=1zqnWJ
+- https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/Ece0oqtqtzVFnmtvvqBM28sBt7VHHkx9YbL8bkRibt2boA?e=1zqnWJ
 
 I made a new directory inside misc and downloaded them there
-	
-	- I learned that for files on sharepoint, you can download them directly using `wget` if you replace whatever is after the `?` with `download=1`
+- I learned that for files on sharepoint, you can download them directly using `wget` if you replace whatever is after the `?` with `download=1`
 	
 ```
 mkdir rebasecalled_reads
