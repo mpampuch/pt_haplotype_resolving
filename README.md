@@ -53,3 +53,11 @@ cd rebasecalled_reads
 wget https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/Ece0oqtqtzVFnmtvvqBM28sBt7VHHkx9YbL8bkRibt2boA?download=1 --output-document=bonito_basecalls.fastq.gz
 gunzip bonito_basecalls.fastq.gz
 ```
+
+Mapped bonito reads to Dans genome assembly
+```
+minimap2 -ax map-ont -t 8 /Volumes/ubdata/mpampuch/pt_haplos_ont/misc/dans_pt_geno
+me/data/final_pt_april_30_final.fasta /Volumes/ubdata/mpampuch/pt_haplos_ont/misc/reb
+asecalled_reads/bonito_basecalls.fastq | samtools sort -@4 -m 4G > bonito_reads_mappe
+d.bam &
+```
