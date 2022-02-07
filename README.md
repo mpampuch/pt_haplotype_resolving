@@ -67,7 +67,10 @@ Moved mapped reads to new directory
 /Volumes/ubdata/mpampuch/pt_haplos_ont/misc/reads_mapped/bonito_reads_mapped.bam
 ```
 
-
+Re-zipped the basecalls file
+```
+gzip --verbose bonito_basecalls.fastq 
+```
 
 
 
