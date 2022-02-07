@@ -63,8 +63,9 @@ minimap2 -ax map-ont -t 8 /Volumes/ubdata/mpampuch/pt_haplos_ont/misc/dans_pt_ge
 ```
 
 Moved mapped reads to new directory 
-- /Volumes/ubdata/mpampuch/pt_haplos_ont/misc/reads_mapped/bonito_reads_mapped.bam
-
+```
+/Volumes/ubdata/mpampuch/pt_haplos_ont/misc/reads_mapped/bonito_reads_mapped.bam
+```
 
 
 
