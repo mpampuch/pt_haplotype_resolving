@@ -88,7 +88,7 @@ wget https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/EaROg6lco0hCh
 
 Running `file` on this downloaded file outputted this `Zip archive data, at least v2.0 to extract`
 
-Needed to download `p7zip` to download this
+Needed to download `p7zip` to extract this
 - Did this through conda to my virtual environment `mark`
 
 ```
