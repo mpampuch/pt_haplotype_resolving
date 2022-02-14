@@ -74,7 +74,10 @@ gzip --verbose bonito_basecalls.fastq
 
 ## Feb 14th - MP
 
-Last week we couldn't get the pipeline working on the Agrajag because we were running into permission issues.
+Last week I couldn't get the pipeline working on the Agrajag because I was running into permission issues.
+- Greg didn't want to give me sudo privileges
+- I asked Dan if he could try executing it too and he was running into the same issues that I was 
+	- Dan suggested running it over Amazon Web Services instead of the Agrajag
 
 Dan finished running PEPPER-Margin-DeepVariant over AWS on the Bonito re-basecalled reads. Shared them here.
 - https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/EaROg6lco0hCh9cl5LLUNDgBxrobtjllYN7z3lwgDJVtLA?e=la2d8N
