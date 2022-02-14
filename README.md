@@ -72,6 +72,30 @@ Re-zipped the basecalls file
 gzip --verbose bonito_basecalls.fastq 
 ```
 
+## Feb 14th - MP
+
+Last week we couldn't get the pipeline working on the Agrajag because we were running into permission issues.
+
+Dan finished running PEPPER-Margin-DeepVariant over AWS on the Bonito re-basecalled reads. Shared them here.
+- https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/EaROg6lco0hCh9cl5LLUNDgBxrobtjllYN7z3lwgDJVtLA?e=la2d8N
+
+Extracted the files
+```
+mkdir pepper_output
+cd pepper_output # path is /Volumes/ubdata/mpampuch/pt_haplos_ont/pepper_output
+wget https://uwoca-my.sharepoint.com/:u:/g/personal/dgiguer_uwo_ca/EaROg6lco0hCh9cl5LLUNDgBxrobtjllYN7z3lwgDJVtLA?download=1
+```
+
+Running `file` on this downloaded file outputted this `Zip archive data, at least v2.0 to extract`
+
+Needed to download p7zip to download this
+- Did this through conda to my virtual environment `mark`
+
+```
+conda activate mark
+conda install -c bioconda p7zip
+7e e EaROg6lco0hCh9cl5LLUNDgBxrobtjllYN7z3lwgDJVtLA\?download\=1 #this was the zip file because I didn't rename it
+```
 
 
 
